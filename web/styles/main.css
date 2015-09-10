@@ -1,0 +1,33 @@
+head,body,footer{
+    font-family: Arial;
+}
+img{
+    float:left;
+}
+h1{
+    color:orange; font-style: italic; text-shadow: 1.5px 1.5px black; font-size: 
+        40px; text-indent: 1em;
+}
+
+h2{
+    font-size: 20px; text-indent: 2em;
+
+}
+
+h3::first-letter{
+    font-size: 50px;
+}
+h3,h4{
+    font-weight: bold; font-size: 25px;
+}
+
+a{
+    font-weight: bold; color: orange; line-height: 1.5;
+}
+a:hover{
+    color: green;
+}
+
+footer{
+    text-align: center; font-size: 75%;
+}                                            
