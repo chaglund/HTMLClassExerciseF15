@@ -1,33 +1,71 @@
-head,body,footer{
-    font-family: Arial;
+html{
+    font-family: Arial; 
+    background-image:url('../images/bats.gif');
+    width:800px; 
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: 0px 10px 10px 10px black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+
 }
+
 img{
     float:left;
+    margin-top: 0;
+    padding-top: 0px;
+    padding-left: 10px;
 }
 h1{
-    color:orange; font-style: italic; text-shadow: 1.5px 1.5px black; font-size: 
-        40px; text-indent: 1em;
+    text-indent: 1em;
+    margin: 0px;
+    padding-top: 0px;
 }
 
 h2{
-    font-size: 20px; text-indent: 2em;
+    font-size: 20px; 
+    text-indent: 1.5em;
+    margin: 0px;
+    padding: 0px;
 
 }
-
+main{
+    background-color: white; 
+    border-top: 2px black solid;
+    border-bottom: 2px black solid; 
+}
 h3::first-letter{
     font-size: 50px;
 }
 h3,h4{
-    font-weight: bold; font-size: 25px;
+    font-weight: bold; 
+    font-size: 25px;
+    padding-left: 10px;
+    line-height: 5px;
+    padding-bottom: 0px;
 }
 
 a{
-    font-weight: bold; color: orange; line-height: 1.5;
+    font-weight: bold; 
+    color: orange; 
+    line-height: 1.5;
 }
 a:hover{
     color: green;
 }
 
 footer{
-    text-align: center; font-size: 75%;
-}                                            
+    text-align: center; 
+    font-size: 75%; line-height: 5; 
+    background: linear-gradient(45deg,black,orange,white);background-color:orange;
+}        
+header{
+    background: linear-gradient(45deg,white,orange,black);
+    margin:0px;
+    background-color:orange;
+    padding-top: 0px;
+}
+p{
+    padding-left: 20px;
+}
