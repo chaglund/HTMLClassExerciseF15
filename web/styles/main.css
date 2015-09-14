@@ -1,6 +1,11 @@
 html{
     font-family: Arial; 
     background-image:url('../images/bats.gif');
+    
+
+}
+body{
+    margin:0 auto;
     width:800px; 
     margin-left: auto; 
     margin-right: auto;
@@ -8,12 +13,11 @@ html{
     border-width: 2px;
     border-color: black;
     border-style: solid;
-
 }
 ul{
     float:left;
     width:160px;
-    height: 470px;
+    height: 520px;
 }
 .pumpkinPic{
     float:left;
@@ -23,8 +27,8 @@ ul{
 }
 h1{
     text-indent: 1em;
-    padding-top: 0px;
-    margin-top: 0px;
+    padding-top: 0;
+    margin: 0;
 }
 
 h2{
