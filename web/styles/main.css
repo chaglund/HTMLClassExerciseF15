@@ -10,8 +10,12 @@ html{
     border-style: solid;
 
 }
-
-img{
+ul{
+    float:left;
+    width:160px;
+    height: 470px;
+}
+.pumpkinPic{
     float:left;
     margin-top: 0;
     padding-top: 0px;
@@ -19,8 +23,8 @@ img{
 }
 h1{
     text-indent: 1em;
-    margin: 0px;
     padding-top: 0px;
+    margin-top: 0px;
 }
 
 h2{
@@ -34,6 +38,7 @@ main{
     background-color: white; 
     border-top: 2px black solid;
     border-bottom: 2px black solid; 
+    height: auto;
 }
 h3::first-letter{
     font-size: 50px;
@@ -44,6 +49,8 @@ h3,h4{
     padding-left: 10px;
     line-height: 5px;
     padding-bottom: 0px;
+    
+    
 }
 
 a{
@@ -57,8 +64,11 @@ a:hover{
 
 footer{
     text-align: center; 
-    font-size: 75%; line-height: 5; 
-    background: linear-gradient(45deg,black,orange,white);background-color:orange;
+    font-size: 75%; 
+    line-height: 5; 
+    background: linear-gradient(45deg,black,orange,white);
+    background-color:orange;
+    alignment-baseline: after-edge;
 }        
 header{
     background: linear-gradient(45deg,white,orange,black);
@@ -69,3 +79,4 @@ header{
 p{
     padding-left: 20px;
 }
+
