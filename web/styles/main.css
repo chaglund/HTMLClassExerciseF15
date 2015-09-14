@@ -29,6 +29,7 @@ h1{
     text-indent: 1em;
     padding-top: 0;
     margin: 0;
+    line-height: 50px;
 }
 
 h2{
@@ -79,6 +80,7 @@ header{
     margin:0px;
     background-color:orange;
     padding-top: 0px;
+    height: 85px;
 }
 p{
     padding-left: 20px;
