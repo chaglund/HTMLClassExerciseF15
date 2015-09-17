@@ -14,10 +14,80 @@ body{
     border-color: black;
     border-style: solid;
 }
-ul{
+
+.horizNavMenu ul{
+    margin:0;
+    padding:0;
+    display:block;
+    background-color: black;
+    height:40px;
+}
+.horizNavMenu li{
+    margin:0;
+    padding: 0;
+    display: inline;
+    text-align: center;
+    box-sizing: content-box;
+    background-size: 800px 50px;
+    background-color: black;
+
+}
+.horizList{
+    float:left;
+    padding-left: 0;
+    width: 20%;
+}
+.horizList a{
+    display:block;
+    height:30px;
+    padding-top:10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.homeLink {
+    color:orange;
+}
+.productListLink{
+    color:white;
+}
+.personalLink{
+    color:white;
+}
+.decoratingLink{
+    color:white;
+}
+.emailLink{
+    color:white;
+}
+.horizList a:hover{
+    color:black;
+    background-color: grey;
+}
+.vertNavMenu ul{
     float:left;
     width:160px;
     height: 520px;
+    margin:10px;
+    padding:0px
+}
+.derCat{
+    color:orange;
+    font-weight:bold;
+}
+.vertList{    
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding:5px;
+    margin:2px;
+    list-style-type:  none;
+}
+.vertList a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    
 }
 .pumpkinPic{
     float:left;
@@ -58,15 +128,6 @@ h3,h4{
     
 }
 
-a{
-    font-weight: bold; 
-    color: orange; 
-    line-height: 1.5;
-}
-a:hover{
-    color: green;
-}
-
 footer{
     text-align: center; 
     font-size: 75%; 
@@ -85,4 +146,3 @@ header{
 p{
     padding-left: 20px;
 }
-
