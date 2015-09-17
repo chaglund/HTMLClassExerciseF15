@@ -1,16 +1,85 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html lang="en">
+
+
+    <head>          
+        <meta charset="utf-8" />      
+        <link href="../styles/normalize.css" rel="stylesheet">
+        <link href="../styles/main.css" rel="StyleSheet" type="text/css">
+        <title>Halloween Store</title>
+  
     </head>
+
     <body>
-        <div>TODO write content</div>
+        <header>
+            <div class="pumpkinPic">
+                <a href="../index.html"><img src="../images/pumpkin.gif" alt="Pumpkin" style="width: 85px;height:78px;"></a>
+            </div>
+            <h1> The Halloween Store</h1>
+            <h2> For the little Goblin in all of us!</h2>
+        </header>
+        <nav class ="horizNavMenu">
+            <ul>
+                <li class="horizList"><a class="homeLink" href="../index.html">Home</a></li>
+                <li class="horizList"><a class="productListLink" href="productList.html">Product List</a></li>
+                <li class="horizList"><a class="personalLink" href="personal.html">Personal</a></li>
+                <li class="horizList"><a class="decoratingLink" href="decoratingIdeas.html">Decorating Ideas</a></li>
+                <li class="horizList"><a class="emailLink" href="joinEmail.html">Join Email</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="vertNavMenu">
+                <ul>
+                    <li class="vertList"><a href="props.html">Props</a></li>
+                    <li class="vertList"><a href="costumes.html">Costumes</a></li>
+                    <li class="vertList"><a href="specialEffects.html">Special FX</a></li>
+                    <li class="vertList"><a href="masks.html">Masks</a></li>
+                </ul>
+            </div>
+            
+            <h5>Product List </h5>
+            <table id="productTable">
+                <thead>
+                    <tr>
+                        <th class="left">Category</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="left">Props</td>
+                        <td>20" Deranged Cat</td>
+                        <td>$39.99</td>
+                    </tr>
+                    <tr>
+                        <td class="left"></td>
+                        <td>Flying Bats</td>
+                        <td>$14.99</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Costumes</td>
+                        <td>Austin Powers</td>
+                        <td>$79.50</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Special Effects</td>
+                        <td>Fog Machine</td>
+                        <td>$34.99</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Masks</td>
+                        <td>Freddy</td>
+                        <td>$44.50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <small>&copy; 2016 Catharine Haglund</small>
+        </footer>
     </body>
 </html>

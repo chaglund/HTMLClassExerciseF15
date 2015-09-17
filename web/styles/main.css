@@ -1,11 +1,11 @@
 html{
     font-family: Arial; 
     background-image:url('../images/bats.gif');
-    
-
 }
+
 body{
     margin:0 auto;
+    height:auto;
     width:800px; 
     margin-left: auto; 
     margin-right: auto;
@@ -14,6 +14,17 @@ body{
     border-color: black;
     border-style: solid;
 }
+#productTable{
+    margin-left: 160px;
+    width: 450px;
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+    margin-right:130px;
+    margin-left:160px;
+}
+
 
 .horizNavMenu ul{
     margin:0;
@@ -63,10 +74,12 @@ body{
     color:black;
     background-color: grey;
 }
-.vertNavMenu ul{
+.vertNavMenu{
     float:left;
     width:160px;
-    height: 520px;
+    height:520px;
+}
+.vertNavMenu ul{
     margin:10px;
     padding:0px
 }
@@ -110,6 +123,7 @@ h2{
 
 }
 main{
+    display:block;
     background-color: white; 
     border-top: 2px black solid;
     border-bottom: 2px black solid; 
@@ -135,6 +149,7 @@ footer{
     background: linear-gradient(45deg,black,orange,white);
     background-color:orange;
     alignment-baseline: after-edge;
+    height:60px;
 }        
 header{
     background: linear-gradient(45deg,white,orange,black);
@@ -143,6 +158,4 @@ header{
     padding-top: 0px;
     height: 85px;
 }
-p{
-    padding-left: 20px;
-}
+
