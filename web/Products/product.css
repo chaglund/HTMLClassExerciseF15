@@ -1,0 +1,178 @@
+html{
+    font-family: Arial; 
+    background-image:url('../images/bats.gif');
+    
+
+}
+body{
+    margin:0 auto;
+    width:800px; 
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: 0px 10px 10px 10px black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.horizNavMenu ul{
+    margin:0;
+    padding:0;
+    display:block;
+    background-color: black;
+    height:40px;
+}
+.horizNavMenu li{
+    margin:0;
+    padding: 0;
+    display: inline;
+    text-align: center;
+    box-sizing: content-box;
+    background-size: 800px 50px;
+    background-color: black;
+
+}
+.horizList{
+    float:left;
+    padding-left: 0;
+    width: 20%;
+}
+.horizList a{
+    display:block;
+    height:30px;
+    padding-top:10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.homeLink {
+    color:orange;
+}
+.productListLink{
+    color:white;
+}
+.personalLink{
+    color:white;
+}
+.decoratingLink{
+    color:white;
+}
+.emailLink{
+    color:white;
+}
+.horizList a:hover{
+    color:black;
+    background-color: grey;
+}
+
+.vertNavMenu ul{
+    float:left;
+    width:160px;
+    height: 520px;
+    margin:10px;
+    padding:0px
+}
+.derCat{
+    color:orange;
+    font-weight:bold;
+}
+.catPic{
+    float:left;
+}
+.vertList{    
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding:5px;
+    margin:2px;
+    list-style-type:  none;
+}
+.vertList a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    
+}
+.alsoPurchased ul{
+    float: top;
+    float:right;
+    width:160px;
+    height:520px;
+    padding:0px
+}
+.purchasedItem{    
+    border-style: solid;
+    border-width: 2px;
+    padding:5px;
+    margin:2px;
+    list-style-type:  none;
+}
+.purchasedItem a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    
+}
+.pumpkinPic{
+    float:left;
+    margin-top: 0;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+h1{
+    text-indent: 1em;
+    padding-top: 0;
+    margin: 0;
+    line-height: 50px;
+}
+
+h2{
+    font-size: 20px; 
+    text-indent: 1.5em;
+    margin: 0px;
+    padding: 0px;
+
+}
+main{
+    background-color: white; 
+    border-top: 2px black solid;
+    border-bottom: 2px black solid; 
+    height: auto;
+
+}
+.description{
+    width:500px;
+}
+.fullProduct{
+    width:500px;
+}
+
+h3,h4{
+    font-weight: bold; 
+    font-size: 25px;
+    padding-left: 10px;
+    line-height: 5px;
+    padding-bottom: 0px;
+    width:600px;
+    
+    
+}
+
+footer{
+    text-align: center; 
+    font-size: 75%; 
+    line-height: 5; 
+    background: linear-gradient(45deg,black,orange,white);
+    background-color:orange;
+    alignment-baseline: after-edge;
+}        
+header{
+    background: linear-gradient(45deg,white,orange,black);
+    margin:0px;
+    background-color:orange;
+    padding-top: 0px;
+    height: 85px;
+}
+p{
+    padding-left: 20px;
+}
