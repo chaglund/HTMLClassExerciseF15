@@ -12,12 +12,16 @@
     </head>
 
     <body>
+        
         <header>
             <div class="pumpkinPic">
-                <img src="../images/pumpkin.gif" alt="Pumpkin" style="width: 85px;height:78px;"></div>
+                <a href="../index.html"><img src="../images/pumpkin.gif" alt="Pumpkin" style="width: 85px;height:78px;"></a>
+            </div>
             <h1> The Halloween Store</h1>
             <h2> For the little Goblin in all of us!</h2>
         </header>
+        
+        
         <nav class ="horizNavMenu">
             <ul>
                 <li class="horizList"><a class="homeLink" href="../index.html">Home</a></li>
@@ -29,44 +33,47 @@
         </nav>
 
         <main>
-            <div class="vertNavMenu">
+            
+            <div id="vertNavMenu">
                 <ul>
-                    <li class="vertList"><a href="props.html">Props</a></li>
-                    <li class="vertList"><a href="costumes.html">Costumes</a></li>
-                    <li class="vertList"><a href="specialEffects.html">Special FX</a></li>
-                    <li class="vertList"><a href="masks.html">Masks</a></li>
+                    <li ><a href="props.html">Props</a></li>
+                    <li ><a href="costumes.html">Costumes</a></li>
+                    <li ><a href="specialEffects.html">Special FX</a></li>
+                    <li ><a href="masks.html">Masks</a></li>
                 </ul>
             </div>
-            <div class="fullProduct">
-            <h3>20" Deranged Cat </h3>
-            <div class="catPic">
-                <p><a href="derCat.html"><img src="../images/cat1.jpg" alt="Cat" style="width: 140px; height: 100px"> </a></p>
-                <p ><a class="derCat" href="derCat.html">20" Deranged Cat</a></p></div>
-            <div class="description">
-                <p>This cat provides its own light and is perfect for a backyard haunting.</p>
-                <p><b>Price:</b> 19.99</p>
-
+            
+            <div id="purchasedList">
+                <ul>
+                    <li class="purchasedHeader">Customers who bought this product also bought:</li>
+                    <li >
+                        <p><a href="flyingBats.html"><img src="../images/flying_bats.jpg" alt="Flying Bats" style="width: 50px; height: 50px"> </a></p>
+                        <p class="prodLinkHover"><a  href="flyingBats.html">Flying Bats</a></p>
+                    </li>
+                    <li>
+                        <p><a href="uglyRat.html"><img src="../images/rat1.jpg" alt="Ugly Rat" style="width: 51px; height: 65px"> </a></p>
+                        <p class="prodLinkHover"><a  href="uglyRat.html">16" Ugly Rat</a></p>
+                    </li>
+                    <li >
+                        <p><a href="miniStrobe.html"><img src="../images/strobe1.jpg" alt="Mini Strobe Light" style="width: 50px; height: 50px"> </a></p>
+                        <p class="prodLinkHover"><a  href="miniStrobe.html">Mini Strobe Light</a></p>
+                    </li>
+                </ul>
             </div>
+            
+            <div id="fullProduct">
+                <h3>20" Deranged Cat </h3>
+                <div class="catPic">
+                    <p><a href="derCat.html"><img src="../images/cat1.jpg" alt="Cat" style="width: 154px; height: 122px"> </a></p>
+                </div>
+                <div class="description">
+                    <p>This cat provides its own light and is perfect for a backyard haunting.</p>
+                    <p><b>Price:</b> 19.99</p>
+                </div>
             </div>
 
         </main>
-            <nav class="alsoPurchased">
-                <ul class="purchasedList">
-                    <li>Customers who bought this product also bought:</li>
-                    <li class="purchasedItem">
-                        <p><a href="flyingBats.html"><img src="../images/flying_bats.jpg" alt="Flying Bats" style="width: 140px; height: 100px"> </a></p>
-                        <p ><a class="derCat" href="flyingRats.html">Flying Bats</a></p>
-                    </li>
-                    <li class="purchasedItem">
-                        <p><a href="uglyRat.html"><img src="../images/rat1.jpg" alt="Ugly Rat" style="width: 140px; height: 100px"> </a></p>
-                        <p ><a class="derCat" href="uglyRat.html">16" Ugly Rat</a></p>
-                    </li>
-                    <li class="purchasedItem">
-                        <p><a href="miniStrobe.html"><img src="../images/strobe1.jpg" alt="Mini Strobe Light" style="width: 140px; height: 100px"> </a></p>
-                        <p ><a class="derCat" href="miniStrobe.html">Mini Strobe Light</a></p>
-                    </li>
-                </ul>
-            </nav>
+
         <footer>
             <small>&copy; 2016 Catharine Haglund</small>
         </footer>

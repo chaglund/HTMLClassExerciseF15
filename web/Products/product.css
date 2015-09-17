@@ -5,7 +5,8 @@ html{
 
 }
 body{
-    margin:0 auto;
+    margin:0 auto;   
+    height:600px;
     width:800px; 
     margin-left: auto; 
     margin-right: auto;
@@ -13,6 +14,7 @@ body{
     border-width: 2px;
     border-color: black;
     border-style: solid;
+ 
 }
 
 .horizNavMenu ul{
@@ -45,7 +47,7 @@ body{
     font-weight: bold;
 }
 .homeLink {
-    color:orange;
+    color:white;
 }
 .productListLink{
     color:white;
@@ -63,22 +65,22 @@ body{
     color:black;
     background-color: grey;
 }
-
-.vertNavMenu ul{
+#vertNavMenu{
+    float:left;
+    width:160px;
+    height:415px;
+}
+#vertNavMenu ul{
     float:left;
     width:160px;
     height: 520px;
     margin:10px;
     padding:0px
 }
-.derCat{
-    color:orange;
-    font-weight:bold;
-}
 .catPic{
     float:left;
 }
-.vertList{    
+#vertNavMenu li{    
     background-color: orange;
     border-color: black;
     border-style: solid;
@@ -87,31 +89,38 @@ body{
     margin:2px;
     list-style-type:  none;
 }
-.vertList a{
+#vertNavMenu a{
     text-decoration: none;
     color:black;
     font-weight: bold;
-    
 }
-.alsoPurchased ul{
-    float: top;
+#purchasedList ul{
+    margin:0;
     float:right;
-    width:160px;
-    height:520px;
-    padding:0px
+    width:180px;
+    height:415px;
+    padding:0px;
+    background:#F5DEB3;
 }
-.purchasedItem{    
-    border-style: solid;
-    border-width: 2px;
-    padding:5px;
-    margin:2px;
-    list-style-type:  none;
+#purchasedList li{    
+
+    margin-left:15px;
+    list-style-type: none;
 }
-.purchasedItem a{
-    text-decoration: none;
-    color:black;
+.prodLinkHover a:hover{
     font-weight: bold;
+    color:green;
+}
+#purchasedList a{
+    color:black;
+    font-size: 75%;
     
+}
+.purchasedHeader{
+    list-style-type: none;
+    font-weight: bold;
+    margin:10px;
+    font-size: 90%;
 }
 .pumpkinPic{
     float:left;
@@ -134,29 +143,41 @@ h2{
 
 }
 main{
+    display:block;
     background-color: white; 
     border-top: 2px black solid;
     border-bottom: 2px black solid; 
     height: auto;
+    height:415px;
 
 }
 .description{
-    width:500px;
+    margin:5px;
+    padding:0;
+    float:left;
+    width:230px;
+
 }
-.fullProduct{
-    width:500px;
+#fullProduct{
+    padding-top: 10px;
+    padding-left: 160px;
+    display:block;
+    width:450px;
+    height:415px;
+    margin-right: 160px;
+    
+}
+#fullProduct div,h3{
+    padding:10px;
 }
 
-h3,h4{
-    font-weight: bold; 
+h3{
     font-size: 25px;
-    padding-left: 10px;
-    line-height: 5px;
-    padding-bottom: 0px;
-    width:600px;
-    
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
+
 
 footer{
     text-align: center; 
@@ -165,6 +186,7 @@ footer{
     background: linear-gradient(45deg,black,orange,white);
     background-color:orange;
     alignment-baseline: after-edge;
+    height:60px;
 }        
 header{
     background: linear-gradient(45deg,white,orange,black);
@@ -172,7 +194,4 @@ header{
     background-color:orange;
     padding-top: 0px;
     height: 85px;
-}
-p{
-    padding-left: 20px;
 }
