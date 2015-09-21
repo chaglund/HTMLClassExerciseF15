@@ -31,10 +31,15 @@ body{
 
 }
 
+td:last-child{
+    background-color: #F5DEB3;    
+    text-align: right;
+}
 #productTable .right{
     background-color: #F5DEB3;    
     text-align: right;
 }
+
 h5{
     text-align: center;
     font-weight: bold;
