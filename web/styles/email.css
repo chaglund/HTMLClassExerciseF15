@@ -1,0 +1,170 @@
+html{
+    font-family: Arial; 
+    background-image:url('../images/bats.gif');
+}
+
+body{
+    margin:0 auto;
+    height:auto;
+    width:800px; 
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: 0px 10px 10px 10px black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.horizNavMenu ul{
+    margin:0;
+    padding:0;
+    display:block;
+    background-color: black;
+    height:40px;
+}
+.horizNavMenu li{
+    margin:0;
+    padding: 0;
+    display: inline;
+    text-align: center;
+    box-sizing: content-box;
+    background-size: 800px 50px;
+    background-color: black;
+
+}
+.horizList{
+    float:left;
+    padding-left: 0;
+    width: 20%;
+}
+.horizList a{
+    display:block;
+    height:30px;
+    padding-top:10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.homeLink {
+    color:white;
+}
+.productListLink{
+    color:white;
+}
+.personalLink{
+    color:white;
+}
+.decoratingLink{
+    color:white;
+}
+.emailLink{
+    color:orange;
+}
+.horizList a:hover{
+    color:black;
+    background-color: grey;
+}
+.vertNavMenu{
+    float:left;
+    width:160px;
+    height:auto;
+}
+.vertNavMenu ul{
+    margin:10px;
+    padding:0px
+}
+.derCat{
+    color:orange;
+    font-weight:bold;
+}
+.vertList{    
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding:5px;
+    margin:2px;
+    list-style-type:  none;
+}
+.vertList a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    
+}
+.pumpkinPic{
+    float:left;
+    margin-top: 0;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+h1{
+    text-indent: 1em;
+    padding-top: 0;
+    margin: 0;
+    line-height: 50px;
+}
+
+h2{
+    font-size: 20px; 
+    text-indent: 1.5em;
+    margin: 0px;
+    padding: 0px;
+
+}
+main{
+    display:block;
+    background-color: white; 
+    border-top: 2px black solid;
+    border-bottom: 2px black solid; 
+    height: 300px;;
+}
+h3{
+    font-size: 23px;
+    margin-left: 185px;
+    line-height: 5px;
+    padding-bottom: 0px;
+}
+
+footer{
+    text-align: center; 
+    font-size: 75%; 
+    line-height: 5; 
+    background: linear-gradient(45deg,black,orange,white);
+    background-color:orange;
+    alignment-baseline: after-edge;
+    height:60px;
+
+}        
+header{
+    background: linear-gradient(45deg,white,orange,black);
+    margin:0px;
+    background-color:orange;
+    padding-top: 0px;
+    height: 85px;
+}
+.inputInfo button{
+    text-align: center;
+    width: 100px;
+    margin-left: 295px;
+    background-color: orange;
+}
+.inputInfo a{
+    color:black;
+    text-decoration: none;
+}
+.inputInfo{
+    margin-right:200px;
+
+}
+
+.inputInfo p{
+    font-size: 15px;    
+    text-align:right;
+}
+.inputInfo input{
+    width: 300px;
+}
+.joinedList{
+    margin-left: 190px;
+    margin-right: 50px;
+    height:100px;
+}
