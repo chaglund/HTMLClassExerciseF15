@@ -65,7 +65,7 @@ body{
 .vertNavMenu{
     float:left;
     width:160px;
-    height:auto;
+    height:250px;
 }
 .vertNavMenu ul{
     margin:10px;
@@ -166,6 +166,44 @@ header{
 .inputInfo input{
     width: 300px;
 }
+form{
+    float:right;
+    padding-right: 100px;
+}
+form br {
+  clear: both;
+
+}
+label {
+  text-align: right;
+  width: 5em;
+  float:left;
+ 
+}
+
+input[type=text],
+input[type=email] {
+  border: 1px solid black;
+  margin-left: .5em;
+  margin-bottom: .2em;
+  width: 20em;
+  
+}
+
+input:focus {
+  background: lightgrey;
+  border: 3px solid black;
+}
+
+input[type=submit] {
+  background: orange;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+  padding: .2em 1em;
+  margin-left: 5.5em;
+}
+
+
 .joinedList{
     margin-left: 190px;
     margin-right: 50px;
