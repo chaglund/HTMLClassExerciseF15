@@ -46,7 +46,7 @@ public class HalloweenServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.getServletContext().getRequestDispatcher("/index.html").forward(request, response);
+        doPost(request, response);
     }
 
     /**
@@ -60,6 +60,11 @@ public class HalloweenServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+        String url = "/index.html";
+        String action = request.getParameter("location");
+        
+        if (action != null && action.equals ("add")){
         String firstName = request.getParameter("first-name");
         String lastName = request.getParameter("last-name");
         String email = request.getParameter("email");
@@ -68,10 +73,11 @@ public class HalloweenServlet extends HttpServlet {
         System.out.println("last name " + lastName + ",");
         System.out.println("email " + email + ",");
         System.out.println("zip code " + zipCode + ",");
+        url = "/Subscribe.html";
+        }
         
         
-        
-       request.getServletContext().getRequestDispatcher("/Subscribe.html").forward(request, response);
+       request.getServletContext().getRequestDispatcher(url).forward(request, response);
     }
 
     /**
